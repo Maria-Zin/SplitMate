@@ -12,6 +12,6 @@
 4. Навигация между экранами
 
 ## Скриншоты
-![Welcome](Welcome.jng)
-![Input](Calc.jng)
-![Result](Res.jng)
+![Welcome](https://github.com/Maria-Zin/SplitMate/blob/main/Welcome.jpg)
+![Input](https://github.com/Maria-Zin/SplitMate/blob/main/Calc.jpg)
+![Result](https://github.com/Maria-Zin/SplitMate/blob/main/Res.jpg)
