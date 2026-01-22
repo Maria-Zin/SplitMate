@@ -29,7 +29,6 @@ class MainActivity : ComponentActivity() {
                         navController = navController,
                         startDestination = "welcome"
                     ) {
-                        // Экран 1: Приветствие
                         composable("welcome") {
                             WelcomeScreen(
                                 onStartClick = {
@@ -38,16 +37,13 @@ class MainActivity : ComponentActivity() {
                             )
                         }
 
-                        // Экран 2: Ввод данных
                         composable("input") {
                             InputScreen { total, people, tipAmount ->
-                                // Генерируем уникальный ID расчёта (по времени)
                                 val calcId = System.currentTimeMillis().toString()
                                 navController.navigate("result/$calcId?total=$total&people=$people&tip=$tipAmount")
                             }
                         }
 
-                        // Экран 3: Результаты с ID расчёта
                         composable(
                             route = "result/{calcId}?total={total}&people={people}&tip={tip}",
                             arguments = listOf(
@@ -68,7 +64,6 @@ class MainActivity : ComponentActivity() {
                                 }
                             )
                         ) { backStackEntry ->
-                            // Извлекаем параметры из URL
                             val totalArg = backStackEntry.arguments?.getString("total")?.toDoubleOrNull() ?: 0.0
                             val peopleArg = backStackEntry.arguments?.getString("people")?.toIntOrNull() ?: 1
                             val tipArg = backStackEntry.arguments?.getString("tip")?.toDoubleOrNull() ?: 0.0
