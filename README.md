@@ -15,3 +15,8 @@
 ![Welcome](https://github.com/Maria-Zin/SplitMate/blob/main/Welcome.jpg)
 ![Input](https://github.com/Maria-Zin/SplitMate/blob/main/Calc.jpg)
 ![Result](https://github.com/Maria-Zin/SplitMate/blob/main/Res.jpg)
+
+### Как запустить:
+1. Клонировать репозиторий
+2. Открыть в Android Studio
+3. Запустить на эмуляторе или телефоне
