@@ -12,6 +12,6 @@
 4. Навигация между экранами
 
 ## Скриншоты
-![Welcome](screenshots/welcome.png)
-![Input](screenshots/input.png)
-![Result](screenshots/result.png)
+![Welcome](Welcome.png)
+![Input](Calc.png)
+![Result](Res.png)
